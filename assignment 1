@@ -23,8 +23,10 @@ USE ORG;
 
 -- After Executing the above query, Answer the following questions with
 -- writing the appropriate queries.
+
 -- Question 1:Write an SQL query to fetch “FIRST_NAME” from the Worker table using the alias name
 -- select FIRST_NAME as Name from Worker
+
 -- --Question Write an SQL query to fetch unique values of DEPARTMENT from the Worker Table
  -- select DISTINCT DEPARTMENT  from Worker
  -- Question Write an SQL query to print the first three characters of FIRST_NAME from the Worker table 
@@ -32,9 +34,11 @@ USE ORG;
 -- Question Write an SQL query that fetches the unique values of DEPARTMENT from the Worker table and
 -- prints its length
 -- select DISTINCT DEPARTMENT,length(DEPARTMENT)  from Worker 
+
 -- Question 5 Write an SQL query to print all Worker details from the Worker table order by FIRST_NAME
 -- Ascending and DEPARTMENT Descending- 
 -- select * from Worker order by First_NAME and DEPARTMENT desc
+
 -- Question 6 Write an SQL query to print details of Workers with DEPARTMENT name as “Admin”
 -- select WORKER_ID,FIRST_NAME,LAST_NAME,SALARY,JOINING_DATE,DEPARTMENT AS Admin from Worker
 
@@ -42,6 +46,7 @@ USE ORG;
 -- 500000
 
 -- select * from Worker where SALARY between 100000 and 500000
+
 -- Question 8 Write an SQL query to fetch worker names with salaries >= 50000 and <= 100000.
 -- select FIRST_NAME ,SALARY from Worker where SALARY >= 50000 and SALARY<= 100000
 -- Question 8 Write SQL query to show only even rows from the WORKER table
